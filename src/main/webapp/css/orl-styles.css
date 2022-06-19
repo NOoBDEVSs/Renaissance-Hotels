@@ -1,0 +1,378 @@
+@charset "ISO-8859-1";
+
+body {
+  background-color: #0b4c87;
+  margin: 0px;
+  font-family: Georgia, serif;
+}
+
+.head {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-image: linear-gradient(#e9f0d0, transparent);
+	height: 130px;
+}
+
+.top-parent {
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 40px;
+	width: 100%;
+	height: 700px;
+	font-family: Georgia, serif;
+	font-variant: small-caps;
+}
+
+.side-pane {
+	width: 100%;
+	height: 100%;
+}
+
+.top-ele {
+	display: flex;
+	height: 100%;
+	z-index: 1;
+	position:relative;
+	top: 0;
+	left: 0;
+}
+
+.animate1 {
+	background-color: #0b4c87;
+	height: 100%;
+	width: 10%;
+	animation-name: example5;
+  	animation-duration: 7s;
+  	animation-fill-mode: forwards;
+}
+
+.animate2 {
+	background-color: #0b4c87;
+	height: 100%;
+	width: 10%;
+	animation-name: example4;
+  	animation-duration: 7s;
+  	animation-fill-mode: forwards;
+}
+
+.animate3 {
+	background-color: #0b4c87;
+	height: 100%;
+	width: 10%;
+	animation-name: example3;
+  	animation-duration: 7s;
+  	animation-fill-mode: forwards;
+}
+
+.animate4 {
+	background-color: #0b4c87;
+	height: 100%;
+	width: 10%;
+	animation-name: example2;
+  	animation-duration: 7s;
+  	animation-fill-mode: forwards;
+}
+
+.animate5 {
+	background-color: #0b4c87;
+	height:100%;
+	width: 10%;
+	animation-name: example1;
+  	animation-duration: 7s;
+  	animation-fill-mode: forwards;
+}
+.animate6 {
+	background-color: #0b4c87;
+	height: 100%;
+	width: 10%;
+	animation-name: example1;
+  	animation-duration: 7s;
+  	animation-fill-mode: forwards;
+}
+
+.animate7 {
+	background-color: #0b4c87;
+	height: 100%;
+	width: 10%;
+	animation-name: example2;
+  	animation-duration: 7s;
+  	animation-fill-mode: forwards;
+}
+
+.animate8 {
+	background-color: #0b4c87;
+	height: 100%;
+	width: 10%;
+	animation-name: example3;
+  	animation-duration: 7s;
+  	animation-fill-mode: forwards;
+}
+
+.animate9 {
+	background-color: #0b4c87;
+	height: 100%;
+	width: 10%;
+	animation-name: example4;
+  	animation-duration: 7s;
+  	animation-fill-mode: forwards;
+}
+
+.animate10 {
+	background-color: #0b4c87;
+	height: 100%;
+	width: 10%;
+	animation-name: example5;
+  	animation-duration: 7s;
+  	animation-fill-mode: forwards;
+}
+
+.image {
+	width: 100%;
+	height: 80%;
+	position:absolute;
+	top: 130px;
+	left: 0;
+}
+
+
+@keyframes example1 {
+  0%   {height: 100%;}
+  50%  {height: 0%;}
+  100%  {height: 0%;}
+}
+
+@keyframes example2 {
+  0%   {height: 100%;}
+  60%  {height: 0%;}
+  100%  {height: 0%;}
+}
+
+@keyframes example3 {
+  0%   {height: 100%;}
+  70%  {height: 0%;}
+  100%  {height: 0%;}
+}
+
+@keyframes example4 {
+  0%   {height: 100%;}
+  80%  {height: 0%;}
+  100%  {height: 0%;}
+}
+
+@keyframes example5 {
+  0%   {height: 100%;}
+  90%  {height: 0%;}
+  100%  {height: 0%;}
+}
+
+.content {
+	width: 100%;
+	height: 300px;
+}
+
+.writing {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	width: 100%;
+	height: 350px;
+	background-color: #9dc2e4;
+	color: #63585f; 
+}
+
+.inside-write {
+	padding-top: 40px;
+	font-size: 30px;
+	font-family: Georgia, serif;
+	color: #63585f;
+	text-align: center;
+}
+
+
+
+
+.foot {
+	width: 100%;
+	height: 150px;
+	background-color: #100C0D;
+	justify-content: center;
+}
+
+.foot-con {
+	padding-top: 20px;
+	color: #bcbcbc;
+	text-align: center;
+}
+
+.icons1 {
+	width: 2%;
+	background-color: #bcbcbc;
+	border: 1px solid #bcbcbc;
+}
+
+.icons2 {
+	width: 2%;
+	background-color: #bcbcbc;
+	border: 1px solid #bcbcbc;
+}
+
+.icons3 {
+	width: 2%;
+	background-color: #bcbcbc;
+	border: 1px solid #bcbcbc;
+}
+
+.icons4 {
+	width: 2%;
+	background-color: #bcbcbc;
+	border: 1px solid #bcbcbc;
+}
+
+.icons1:hover {
+	background-color: #E4405F;
+	animation-name: fade;
+  	animation-duration: 1s;
+  	cursor: pointer;
+  	border: 1px solid #E4405F;
+}
+
+.icons2:hover {
+	background-color: #1877F2;
+	animation-name: fade;
+  	animation-duration: 1s;
+  	cursor: pointer;
+  	border: 1px solid #1877F2;
+}
+
+.icons3:hover {
+	background-color: #FF0000;
+	animation-name: fade;
+  	animation-duration: 1s;
+  	cursor: pointer;
+  	border: 1px solid #FF0000;
+}
+
+.icons4:hover {
+	background-color: #1DA1F2;
+	animation-name: fade;
+  	animation-duration: 1s;
+  	cursor: pointer;
+  	border: 1px solid #1DA1F2;
+}
+
+
+
+.header1{
+    background-color: rgb(244, 199, 176);
+    color: blue;
+}
+.heading{
+    /* padding: 2%; */
+    text-align: center;
+    font-variant: small-caps;
+   	color: #564d53;
+}
+.container1{
+    /* background-color: aqua; */
+    width: 80%;
+    /* display: flex; */
+    margin: auto;
+}
+.container2{
+    /* background-color: rgb(228, 141, 141); */
+    width: 100%;
+    /* padding: 5%; */
+    
+    display: flex;
+    background-color: #d6e6f5;
+      
+}
+.boxes{
+    display: flex;
+    text-decoration: none;
+    text-emphasis-color: red;
+    color: green;
+    font-family: Helvetica, sans-serif;
+	padding: 5%;
+	text-align: center;
+    width: 30%;
+}
+.boxes:hover{
+    transform: scale(1.2);
+}
+.room{
+    width: 70%;
+    height: 100%;
+}
+.room_details{
+    padding: 2%;
+    font-family: Georgia, serif;
+    color: #564d53;
+    font-size: 20px;
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+}
+
+/* Style each of the sides
+with a fixed width and height */
+
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+}
+
+/* Add animation to the slides */
+
+.slide-wrapper {
+    
+    /* Calculate the total width on the
+basis of number of slides */
+    width: calc(728px * 4);
+    
+    /* Specify the animation with the
+duration and speed */
+    animation: slide 15s ease infinite;
+}
+
+
+/* Define the animation
+for the slideshow */
+
+@keyframes slide {
+    
+    /* Calculate the margin-left for
+each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+    80% {
+        margin-left: calc(-728px * 3);
+    }
+}
+
+
+.room-list {
+	background-color: #9dc2e4;
+	width: 100%;
+	height: 1700px;
+	margin-bottom: 60px;
+}
+
+.prices {
+	color: #aca9a9;
+	font-size: 16px;
+}
